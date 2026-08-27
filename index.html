@@ -383,7 +383,6 @@
     searchInput.addEventListener('input', event => { state.query = event.target.value; renderSearch(); });
     document.addEventListener('keydown', event => { if (event.key === 'Escape') { searchInput.value = ''; state.query = ''; renderSearch(); hideTooltip(); } });
 
-    selectDistrict(3);
   </script>
 </body>
 </html>
